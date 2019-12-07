@@ -1,0 +1,23 @@
+{
+  "name": "todo-box",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass src/styles/sass -o src/styles",
+    "scss": "node-sass --watch src/styles/sass -o src/styles",
+    "deploy": "gh-pages -d src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-standard": "^14.1.0",
+    "gh-pages": "^2.1.1",
+    "node-sass": "^4.13.0",
+    "semistandard": "^14.0.1"
+  },
+  "dependencies": {}
+}

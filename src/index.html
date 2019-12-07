@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='icon' href='favicon.ico'>
+    <title>Todo Box</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+      <div class="todo-box">
+        <!-- updates dynamically -->
+        <div id="todo-list"></div>
+        <div id="todo-add-button" class="no-select">+</div>
+      </div>
+    <div id="modal-overlay" class="hidden"></div>
+    <div id="modal" class="hidden">
+      <div class="modal-bar">
+        <h1 class="no-select">Edit your todo</h1>
+        <span class="modal-close-button no-select">X</span>
+      </div>
+      <div class="modal-content">
+        <input id="edit-todo-description" type="text" placeholder="A small description of your todo here" />
+        <button id="edit-todo-save-btn" class="no-select">Save Changes</button>
+      </div>
+    </div>
+    <footer><a href="https://github.com/yougotwill/todo-box" class="no-select" target="_blank">Find out more here<img src="resources/todobox.png" alt="logo"></a></footer>
+  </div>
+</body>
+</html>
