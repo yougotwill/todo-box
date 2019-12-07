@@ -1,0 +1,23 @@
+/* Width */
+::-webkit-scrollbar {
+  width: 6px; // vertical scrollbar
+  height: 6px; // horizonal scrollbar
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $scrollbar-track-color;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $scrollbar-thumb-color;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $scrollbar-thumb-hover-color;
+}
+
+
