@@ -16,7 +16,7 @@
     "eslint": "^6.3.0",
     "eslint-config-standard": "^14.1.0",
     "gh-pages": "^2.1.1",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "semistandard": "^14.0.1"
   },
   "dependencies": {}
